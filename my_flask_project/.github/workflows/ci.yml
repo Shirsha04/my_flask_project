@@ -2,9 +2,9 @@ name: Build and Run Flask App
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "*"]
   pull_request:
-    branches: [ feature-branch ]
+    branches: [ "*" ]
 
 jobs:
   build:
